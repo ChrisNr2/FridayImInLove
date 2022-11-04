@@ -12,7 +12,7 @@ import time;
 
 st.set_page_config(layout="wide")
 
-HomeTime = (datetime.datetime.strptime("2022/11/04 16:00:00", "%Y/%m/%d %H:%M:%S") - datetime.datetime.now()).total_seconds();
+HomeTime = (datetime.datetime.strptime("2022/11/04 15:00:00", "%Y/%m/%d %H:%M:%S") - datetime.datetime.now()).total_seconds();
 
 if "FIT" not in st.session_state:
     st.session_state.FIT = False;
